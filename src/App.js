@@ -8,7 +8,7 @@ function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [query, setQuery] = useState('');
 
-  const API_KEY = '596c4112'  ;
+  const API_KEY = 'e965b55629e35da7318892534c0a2774'  ;
 
   const searchMovies = async () => {
     const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=${API_KEY}`);
